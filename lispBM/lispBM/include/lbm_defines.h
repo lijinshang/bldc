@@ -193,7 +193,7 @@
 #define SYM_SETQ                0x113
 #define SYM_MOVE_TO_FLASH       0x114
 #define SYM_LOOP                0x115
-#define SPECIAL_FORMS_END       0x115
+#define SPECIAL_FORMS_END       0x116
 
 // Apply funs:
 // Get their arguments in evaluated form.
@@ -218,7 +218,7 @@
 #define SYM_UNFLATTEN             0x160
 #define SYM_KILL                  0x161
 #define SYM_SLEEP                 0x162
-#define APPLY_FUNS_END            0x162
+#define APPLY_FUNS_END            0x163
 
 #define FUNDAMENTALS_START 0x20E
 #define SYM_ADD           0x20E
